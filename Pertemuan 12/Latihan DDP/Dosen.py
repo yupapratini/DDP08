@@ -15,6 +15,6 @@ class Dosen(person):
     def cetak(self):
         super().cetak()
         print("Gelar \t\t : ", self.gelar,
-              "\nJabatan \t\t : ", self.jabatan,
+              "\nJabatan \t : ", self.jabatan,
               "\nGaji \t\t : ", self.gaji,
               "\n-------------------------------")
