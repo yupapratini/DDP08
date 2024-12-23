@@ -11,6 +11,6 @@ class Mahasiswa(person):
     def cetak(self):
         super().cetak()
         print("Prodi \t\t : ", self.prodi,
-              "\nSemester \t\t : ", self.semester,
+              "\nSemester \t : ", self.semester,
               "\n--------------------------------")
         
